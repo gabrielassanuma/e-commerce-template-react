@@ -1,3 +1,9 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Navbar from './components/Navbar'
+
 export default function Hello() {
-  return <h1>Hello World</h1>
+  return (
+    <Navbar />
+  )
 }
